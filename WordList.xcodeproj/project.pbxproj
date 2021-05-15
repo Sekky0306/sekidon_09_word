@@ -15,6 +15,14 @@
 		9F9A64B5264E1493003986A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9A64B3264E1493003986A5 /* LaunchScreen.storyboard */; };
 		9F9A64C0264E1493003986A5 /* WordListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9A64BF264E1493003986A5 /* WordListTests.swift */; };
 		9F9A64CB264E1493003986A5 /* WordListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9A64CA264E1493003986A5 /* WordListUITests.swift */; };
+		9F9A64DC264E14C3003986A5 /* word_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F9A64D9264E14C3003986A5 /* word_blank.png */; };
+		9F9A64DD264E14C3003986A5 /* fin.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F9A64DA264E14C3003986A5 /* fin.png */; };
+		9F9A64DE264E14C3003986A5 /* title_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F9A64DB264E14C3003986A5 /* title_logo.png */; };
+		9F9A64E0264E1C02003986A5 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9A64DF264E1C02003986A5 /* QuestionViewController.swift */; };
+		9F9A64E2264E1C2F003986A5 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9A64E1264E1C2F003986A5 /* FinishViewController.swift */; };
+		9F9A64E4264E1C66003986A5 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9A64E3264E1C65003986A5 /* ListTableViewController.swift */; };
+		9F9A64E6264E1C85003986A5 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9A64E5264E1C84003986A5 /* AddViewController.swift */; };
+		9F9A64E8264E2AB3003986A5 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9A64E7264E2AB3003986A5 /* ListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		9F9A64C6264E1493003986A5 /* WordListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F9A64CA264E1493003986A5 /* WordListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListUITests.swift; sourceTree = "<group>"; };
 		9F9A64CC264E1493003986A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F9A64D9264E14C3003986A5 /* word_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_blank.png; sourceTree = "<group>"; };
+		9F9A64DA264E14C3003986A5 /* fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fin.png; sourceTree = "<group>"; };
+		9F9A64DB264E14C3003986A5 /* title_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_logo.png; sourceTree = "<group>"; };
+		9F9A64DF264E1C02003986A5 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		9F9A64E1264E1C2F003986A5 /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		9F9A64E3264E1C65003986A5 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		9F9A64E5264E1C84003986A5 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		9F9A64E7264E2AB3003986A5 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +119,12 @@
 				9F9A64AA264E1491003986A5 /* SceneDelegate.swift */,
 				9F9A64AC264E1491003986A5 /* ViewController.swift */,
 				9F9A64AE264E1491003986A5 /* Main.storyboard */,
+				9F9A64DF264E1C02003986A5 /* QuestionViewController.swift */,
+				9F9A64E1264E1C2F003986A5 /* FinishViewController.swift */,
+				9F9A64E3264E1C65003986A5 /* ListTableViewController.swift */,
+				9F9A64E5264E1C84003986A5 /* AddViewController.swift */,
+				9F9A64E7264E2AB3003986A5 /* ListTableViewCell.swift */,
+				9F9A64D8264E14C3003986A5 /* WordList素材 */,
 				9F9A64B1264E1493003986A5 /* Assets.xcassets */,
 				9F9A64B3264E1493003986A5 /* LaunchScreen.storyboard */,
 				9F9A64B6264E1493003986A5 /* Info.plist */,
@@ -126,6 +148,16 @@
 				9F9A64CC264E1493003986A5 /* Info.plist */,
 			);
 			path = WordListUITests;
+			sourceTree = "<group>";
+		};
+		9F9A64D8264E14C3003986A5 /* WordList素材 */ = {
+			isa = PBXGroup;
+			children = (
+				9F9A64D9264E14C3003986A5 /* word_blank.png */,
+				9F9A64DA264E14C3003986A5 /* fin.png */,
+				9F9A64DB264E14C3003986A5 /* title_logo.png */,
+			);
+			path = "WordList素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +263,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F9A64DC264E14C3003986A5 /* word_blank.png in Resources */,
+				9F9A64DE264E14C3003986A5 /* title_logo.png in Resources */,
 				9F9A64B5264E1493003986A5 /* LaunchScreen.storyboard in Resources */,
 				9F9A64B2264E1493003986A5 /* Assets.xcassets in Resources */,
+				9F9A64DD264E14C3003986A5 /* fin.png in Resources */,
 				9F9A64B0264E1491003986A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +293,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F9A64E2264E1C2F003986A5 /* FinishViewController.swift in Sources */,
+				9F9A64E8264E2AB3003986A5 /* ListTableViewCell.swift in Sources */,
 				9F9A64AD264E1491003986A5 /* ViewController.swift in Sources */,
+				9F9A64E6264E1C85003986A5 /* AddViewController.swift in Sources */,
 				9F9A64A9264E1491003986A5 /* AppDelegate.swift in Sources */,
+				9F9A64E4264E1C66003986A5 /* ListTableViewController.swift in Sources */,
+				9F9A64E0264E1C02003986A5 /* QuestionViewController.swift in Sources */,
 				9F9A64AB264E1491003986A5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
